@@ -1,7 +1,7 @@
 'use strict';
 
 //config, keyPopup
-const fadeIn = (config, ...atribute) => {
+function fadeIn (config, ...atribute) {
     if (config.enable) {
         const easing = config.easing;
         const ekeyPopup = document.querySelector(`.${atribute[0]}`);
@@ -31,6 +31,6 @@ const fadeIn = (config, ...atribute) => {
             attributes: true,
         });
     }
-}
+};
 
 export default fadeIn;

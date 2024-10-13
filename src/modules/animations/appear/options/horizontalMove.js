@@ -1,7 +1,7 @@
 'use strict';
 
 //config, keyPopup
-const horizontalMove = (config, ...atribute) => {
+function horizontalMove (config, ...atribute) {
     if (config.enable) {
         const easing = config.easing;
         const screenWidth = window.innerWidth;
@@ -34,6 +34,6 @@ const horizontalMove = (config, ...atribute) => {
             attributes: true,
         });
     }
-}
+};
 
 export default horizontalMove;

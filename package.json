@@ -4,7 +4,8 @@
   "description": "A sleek and highly customizable JavaScript library",
   "main": "src/index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "build:webpack": "webpack"
   },
   "keywords": [
     "popup",
@@ -13,8 +14,15 @@
     "dynamic",
     "popups",
     "event-popup",
-    "dynamic-form"
+    "dynamic-form",
+    "zealflow",
+    "zealflow-popup"
   ],
   "author": "ZealFlow",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^5.4.8",
+    "zod": "^3.23.8",
+    "webpack-cli": "^5.1.4"
+  }
 }

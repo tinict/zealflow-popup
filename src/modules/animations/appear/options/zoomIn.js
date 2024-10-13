@@ -1,7 +1,7 @@
 'use strict';
 
 //config, keyPopup
-const zoomIn = (config, ...atribute) => {
+function zoomIn(config, ...atribute) {
     if (config.enable) {
         const easing = config.easing;
         const ekeyPopup = document.querySelector(`.${atribute[0]}`);
@@ -32,6 +32,6 @@ const zoomIn = (config, ...atribute) => {
             attributes: true,
         });
     }
-}
+};
 
 export default zoomIn;

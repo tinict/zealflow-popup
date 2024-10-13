@@ -1,7 +1,7 @@
 'use strict';
 
 //config, keyPopup
-const moveFromTop = (config, ...atribute) => {
+function moveFromTop(config, ...atribute) {
     if (config.enable) {
         const easing = config.easing;
         const screenHeight = window.innerHeight;
@@ -32,6 +32,6 @@ const moveFromTop = (config, ...atribute) => {
             attributes: true,
         });
     }
-}
+};
 
 export default moveFromTop;
