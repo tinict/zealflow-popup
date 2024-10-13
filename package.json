@@ -1,0 +1,20 @@
+{
+  "name": "zealflow-popup",
+  "version": "0.0.1",
+  "description": "A sleek and highly customizable JavaScript library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "popup",
+    "modal",
+    "dynamic-popup",
+    "dynamic",
+    "popups",
+    "event-popup",
+    "dynamic-form"
+  ],
+  "author": "ZealFlow",
+  "license": "MIT"
+}
